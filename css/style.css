@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+	background-color: black;
+	color: white;
+	background-image: url(../images/header-bg.jpg);
+	height: 300px;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	padding: 150px;
+}
+
+
+
+header h1 {
+	font-size: 60px;
+}
+
+header p {
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+.button {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 5px solid white;
+	color: white;
+	padding: 10px 20px;
+}
+.button:hover {
+	background-color: white;
+	color:black;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.logo {
+	color: red;
+	margin-right: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.categories {
+	padding: 40px;
+	text-align: center;
+}
+
+.categories ul {
+	padding: 0;
+	list-style: none;
+}
+
+.categories ul li {
+	float: left;
+	width: 23%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.categories img {
+	max-width: 100%;
+}
+
+.categories h3 {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.categories .button {
+	color:black;
+	border: 5px solid black;
+}
+
+.quote {
+	background-color: black;
+	color: white;
+	background-image: url(../images/quote-bg.jpg);
+	height: 200px;
+	background-position: center bottom;
+	text-align: center;
+	padding: 150px;
+	background-attachment: fixed;
+}
+
+.quote p {
+	font-style: italic;
+	padding-bottom: 20px;
+}
+
+.featured h2 {
+	text-align: center;
+	padding-top: 40px;
+}
+
+hr {
+	width: 100px;
+	border: 5px solid red;
+}
+
+.featured {
+	padding: 40px;
+	text-align: center;
+}
+
+.featured ul {
+	padding: 0;
+	list-style: none;
+}
+
+.featured ul li {
+	float: left;
+	width: 31%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.featured img {
+	max-width: 100%;
+}
+
+.featured h4 {
+	background: red;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+	padding: 5px 20px;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.featured p {
+	font-style: italic; 
+}
+
+.featured h3 {
+	 margin: 0;
+}
+footer {
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.categories ul li, .featured ul li {
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
